@@ -1,0 +1,42 @@
+#songs_menu {
+	width: 120px;
+	height: 60px;
+	background-color: #C0C0C0 ;
+}
+
+.menu_item{
+	width: 10px;
+	height: 10px;
+	float: left;
+	margin-left: 10px;
+	border-radius: 50%;
+	margin-top: 30px;
+	cursor: pointer;
+}
+
+.menu_item.on {
+	background-color: white ;
+}
+
+.menu_item.off{
+		background-color: #202020;
+}
+
+
+#canvas {
+	position: absolute;
+	/*margin-top: 300px;*/
+	background-color: black;
+}
+
+#canvas2 {
+	
+	position: absolute;
+	right:0px;
+}
+
+#canvas3 {
+	position: absolute;
+	right:0px;
+	/*background-color: red;*/
+}

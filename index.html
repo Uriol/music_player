@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Soundcloud</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=1.0">
+		<link href='css/reset.css' rel='stylesheet'> 
+	    <link href='css/style.css' rel='stylesheet'> 
+	</head>
+
+	<body>
+
+		<audio id="player"></audio>
+
+		<!-- <input type='text' placeholder='Search artists or songs' name='next' id='search_input'>
+		<div id='search_results'>
+			<ul id='result_list'>
+			</ul>
+		</div> -->
+
+		<div id='songs_menu'>
+			<div class='menu_item on' data-index='0'></div>
+			<div class='menu_item off' data-index='1'></div>
+			<div class='menu_item off' data-index='2'></div>
+		</div>
+
+		<canvas id='canvas' width='60' height='130'></canvas>
+
+		<canvas id='canvas2' width='280' height='498'></canvas>
+		<canvas id='canvas3' width='280' height='498'></canvas>
+
+
+
+		<img style="position: absolute; display:none;" src="img/jubel_blur.png" />
+
+		<script src="https://connect.soundcloud.com/sdk-2.0.0.js"></script>
+		<script src='js/jquery-1.11.2.min.js'></script>
+		<script src='js/sound_manager.js'></script>
+		<script src='js/script.js'></script>
+	</body>
+	
+</html>
